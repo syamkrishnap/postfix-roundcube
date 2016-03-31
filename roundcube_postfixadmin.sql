@@ -36,13 +36,6 @@ CREATE TABLE `admin` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Postfix Admin - Virtual Admins';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
-LOCK TABLES `admin` WRITE;
-/*!40000 ALTER TABLE `admin` DISABLE KEYS */;
-INSERT INTO `admin` VALUES ('admin@example.com','$1$7da4d206$YFit3N13023yzRkJ7fFKa0',1,'2016-03-02 15:23:14','2016-03-03 16:24:44',1);
-/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
 --
 -- Table structure for table `alias`
 --

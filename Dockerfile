@@ -19,7 +19,6 @@ RUN chmod 775 /var/log/
 
 COPY roundcube_postfixadmin.sql /
 
-RUN /etc/init.d/mysql start; mysql < roundcube_postfixadmin.sql
 RUN sed -i "s/ENABLED=0/ENABLED=1/g" /etc/default/spamassassin
 
 COPY run.sh /run.sh

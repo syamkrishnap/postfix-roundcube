@@ -16,5 +16,5 @@ docker run --env "PADMIN=login" --env "PADMP=password" -d -v /data/mysql:/var/li
 
 
 After running container, you can access admin panel here - http://yourhost/postfixadmin, use login and password defined within docker start, with variables PADMP abd PADMIN.
-Webmail can be accessed here - http://yourhost/roundcubemail, using accounts created with admin panel. Or you can use you mail client via ports: pop3, smtp, imap, pop3s imaps, smtps.
+Webmail can be accessed here - http://yourhost/roundcubemail, using accounts created with admin panel. Or you can use your mail client via ports: pop3, smtp, imap, pop3s imaps, smtps.
 
